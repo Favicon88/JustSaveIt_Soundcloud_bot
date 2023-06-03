@@ -28,6 +28,6 @@ apihelper.API_URL = "http://localhost:4200/bot{0}/{1}"
 команды для сервера
 
 ```
-systemctl status justsavit-soundcloud-bot
-systemctl restart justsavit-soundcloud-bot
+systemctl status justsaveit_souncloud_bot
+systemctl restart justsaveit_souncloud_bot
 ```

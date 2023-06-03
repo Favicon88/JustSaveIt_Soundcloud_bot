@@ -260,18 +260,19 @@ def download_video(message, url, audio=False):
 @bot.message_handler(commands=["start", "help"])
 def send_start(message):
     if message.text == "/start":
-        text = """🤖 This bot can download videos and audios from SoundCloud.
-Send the link, choose the format and get your file.
+        text = """🇺🇸 This bot can download music from Soundcloud.
+Send the link and get your file.
 
-🤖 Этот бот может скачивать видео и аудио из ВК.
-Отправь ссылку, выбери формат и получи свой файл.
+🇷🇺 Этот бот может скачивать музыку из Саундклауда.
+Отправь ссылку и получи свой файл.
 
-/help - О боте
+/help - about bot | о боте
+justsave.app - app | приложение
 
-👇Отправь ссылку и получи свой файл👇
+👇 send me the link | отправь мне ссылку 👇
 """
     elif message.text == "/help":
-        text = """🔥 JustSaveIt_SoundCloud может скачать для вас видео ролики и аудио из SoundCloud.
+        text = """🔥 JustSave SoundCloud может скачать для вас видео ролики и аудио из SoundCloud.
 
 Как пользоваться:
   1. Зайдите в SoundCloud.
